@@ -1,7 +1,7 @@
 
 var dfLoadStatus = 0;
 var dfLoadFiles = [
-    ["//code.jquery.com/jquery-1.11.0.min.js"],
+    [""],
     [
         "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js",
         "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
@@ -10,7 +10,6 @@ var dfLoadFiles = [
         "../static/js/utm_tracking.js",
         "../static/js/jquery.validate.min.js",
         "../static/js/jquery.numericInput.min.js",
-
     ]
 ];
 
@@ -82,8 +81,6 @@ function performDeferredActions() {
     $(window).on('load', function () {
         $.getJSON(headerRef, function (data) {
             $('.codigo-descuento').html('<input id="txtCodigoPromocion" class="form-control" type="text" maxlength="30" name="txtCodigoPromocion" placeholder="referido o promo code" value="' + data.codigodescuento + '"/>');
-            $('.h-titulo').html('<h1>' + data.titulo + '</h1>');
-            $('.h-descripcion').html('<p>' + data.descripcion + '</p>');
             $('.h-destacado').html('<p>' + data.destacado + '</p>');
             /*$('.h-boton').html(data.boton);
             // Inicializa magnificPopup 
