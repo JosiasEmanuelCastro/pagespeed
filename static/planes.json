@@ -1,0 +1,84 @@
+{
+	"titulo": "Planes",
+	"descripcion1": "Todos los planes con 15% OFF por pago anual <small>(pagando 12 meses juntos)</small>",
+	"descripcion2": "Hay muchas funcionalidades pensadas para simplificar la gestión de tu empresa ¡Elegí el plan que necesites!",
+  "planes": [
+    {
+      "class": "col-xs-12 col-md-6 col-lg-3",
+      "nombre": "Standard",
+      "header": "<div class='price' style='font-size:17px'>$<span id='pStandardDescAnual'></span>/mes abonando anual</div></b>o $<span id='pStandardDescMensual'></span>/mes sin dto<br><br><p style='font-size:14px'>precios sin IVA</p></p>",
+      "css": "",
+      "toplabel": "",
+      "boton": "Probalo 10 días sin cargo",
+      "botontarget": "",
+      "botonclass": "btn btn-danger btn-md",
+      "botonhref": "#top",
+      "features": [
+        "<b>Facturación electrónica ilimitada</b>",
+        "Módulo de Ventas, Compras y Tesorería",
+        "Acceso de hasta 3 usuarios",
+        "Listado de productos de hasta 5000 SKUs",
+        "Reportes automáticos financieros y de gestión",
+        "Integración con Tiendanube, Mercado Libre, Mercado Pago o Mercado Shops"
+      ]
+    },
+    {
+      "class": "col-xs-12 col-md-6 col-lg-3",
+      "nombre": "Pro",
+      "header": "<div class='price' style='font-size:17px'>$<span id='pProDescAnual'></span>/mes abonando anual</div>o $<span id='pProDescMensual'></span>/mes sin dto</br></br><p style='font-size:14px'>precios sin IVA</p></p>",
+      "css": "",
+      "toplabel": "",
+      "boton": "Probalo 10 días sin cargo",
+      "botontarget": "",
+      "botonclass": "btn btn-danger btn-md",
+      "botonhref": "#top",
+      "features": [
+        "<b>Todos los features del plan anterior</b>",
+        "Módulo de Inventarios: Stock multi-depósito",
+        "Acceso de hasta 5 usuarios",
+        "CUITs - hasta 2 razones sociales",
+        "Listas de precios para productos",
+        "Alertas automáticas de gestión"
+      ]
+    },
+    {
+      "class": "col-xs-12 col-md-6 col-lg-3",
+      "nombre": "Full",
+      "header": "<div class='price' style='font-size:17px'>$<span id='pFullDescAnual'></span>/mes abonando anual</div>o $<span id='pFullDescMensual'></span>/mes sin dto</br></br><p style='font-size:14px'>precios sin IVA</p></p>",
+      "css": "popular",
+      "toplabel": "<div class='top-label'><span style='color: #FFC107'>★</span> RECOMENDADO</div>",
+      "boton": "Probalo 10 días sin cargo",
+      "botontarget": "",
+      "botonclass": "btn btn-danger btn-md",
+      "botonhref": "#top",
+      "features": [
+        "<b>Todos los features del plan anterior</b>",
+        "Módulo Contable configurable con Libros, Balance y EERR",
+        "Acceso de hasta 10 usuarios",
+        "CUITs - hasta 3 razones sociales",
+        "Gestión bi-monetaria",
+        "API desarrolladores"
+      ]
+    },
+    {
+      "class": "col-xs-12 col-md-6 col-lg-3",
+      "nombre": "Custom",
+      "header": "<div class='price'>Plan a medida</div><p><a href='https://www.contabilium.com/contacto/' target='_blank'>Solicitar info</a></p>",
+      "css": "",
+      "toplabel": "",
+      "boton": "Probalo 10 días sin cargo",
+      "botontarget": "",
+      "botonclass": "btn btn-danger btn-md",
+      "botonhref": "#top",
+      "features": [
+        "<b>Todos los features del plan anterior</b>",
+        "Desarrollos a medida",
+        "Acompañamiento con ejecutivo/a de cuentas",
+        "Asesoramiento para ayudarte a escalar",
+        "Capacitaciones periódicas",
+        "Atención preferencial"
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,1173 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Contabilium">
+    <link rel="icon" href="../static/images/favicon.webp">
+
+    <meta name="description"
+        content="Sistema de gestión online para profesionales y pymes. Simple y Rápido. Accedé en cualquier momento y desde cualquier lugar. Probalo gratis" />
+    <meta name="keywords"
+        content="contabilidad online, gestión contable, Contabilium, sistema de gestión, gestión pyme, contabilidad pyme, gestión online simple, contabilidad, gestión de pyme, contabilidad simple, gestión online, sistema contable fácil, sistema contable gratis,contabilidad general, sistema contable, bejerman, sistema tango, factura electronica, tablero de control, software de gestión contable, contabilium, erp, erp online" />
+    <title>Contabilium - Sistema de gestión online para profesionales y pymes</title>
+
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link href="../static/css/fontawesome.min.css" rel="stylesheet">-->
+    <!--<link href="../static/css/solid.min.css" rel="stylesheet">-->
+    <!--<link href="../static/css/brands.min.css?v=1" rel="stylesheet">-->
+    <link href="../static/css/slick.css" rel="stylesheet">
+    <!--<link href="../static/css/animate.css" rel="stylesheet">-->
+    <!--<link href="../static/css/magnific-popup.css" rel="stylesheet">-->
+    <link href="../static/css/style.css?v=1.2" rel="stylesheet">
+    <link href="../static/css/helpers.css?v=1" rel="stylesheet">
+
+    <style type="text/css">
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <style type="text/css">
+        /*.wow {
+            visibility: hidden;
+            opacity: 0;
+        }*/
+
+        .btn:hover {
+            color: white;
+        }
+
+        :root {
+            --my-negro: #131313;
+            --my-rosa: #ff2569;
+            --my-rosa-c: #ffa9c6;
+            --my-rosa-o: #dd205b;
+            --my-verde: #00c7af;
+            --my-verde-c: #67ebde;
+            --my-verde-o: #00aa95;
+            --my-naranja: #f86d70;
+            --my-amarillo: #e5cb83;
+            --my-azul: #6c63ff;
+            --my-gris: #939393;
+            --my-gris-c: #ececec;
+            --my-gris-o: #333;
+        }
+
+        .justify-content-center {
+            justify-content: center !important;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .nav-pills .nav-link {
+            background: 0 0;
+            border: 0;
+            border-radius: 0.25rem;
+        }
+
+        .nav-link {
+            padding: 1.2rem 0 1.2rem 1rem;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #0d6efd;
+            text-decoration: none;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        }
+
+        .semi-bold {
+            font-weight: bold;
+        }
+
+        .regular {}
+
+        .tc-rosa {
+            color: var(--my-rosa) !important;
+        }
+
+        .pt-3 {
+            padding-top: 1rem !important;
+        }
+
+
+
+        @media (min-width: 768px) {
+
+            .container,
+            .container-md,
+            .container-sm {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 960px;
+            }
+        }
+
+
+
+        @media (min-width: 1200px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl {
+                max-width: 1140px;
+            }
+        }
+
+
+        @media (min-width: 1400px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl,
+            .container-xxl {
+                max-width: 1320px;
+            }
+        }
+
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            width: 100%;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+
+        /* CARDS */
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 0.25rem;
+        }
+
+        .card {
+            border-radius: .35rem .35rem 0 0;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-right: 2px solid rgba(0, 0, 0, .05);
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: -1;
+        }
+
+        .card img {
+            border-radius: .35rem .35rem 0 0;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        .card span {
+            color: var(--my-gris);
+        }
+
+        h3 {
+            font-size: 27px;
+            line-height: 2.5rem;
+        }
+
+        .btn-rosa,
+        .btn-rosa:focus {
+            background-color: var(--my-rosa);
+            border-color: var(--my-rosa);
+        }
+
+        .btn-md {
+            border-radius: 1.5rem;
+            padding: 0.4rem 2rem 0.4rem;
+        }
+
+        .btn {
+            border-radius: 0.9rem;
+            padding: 0.2rem 1.3rem 0.3rem;
+            color: white !important;
+        }
+
+        .planes {
+            background: whitesmoke;
+        }
+
+        .planes .nav-pills {
+            background: #ccc;
+            width: 300px;
+            margin: 3.5rem auto;
+            border-radius: 1.5rem;
+        }
+
+        .planes .nav-item {
+            width: 50%;
+            text-align: center;
+        }
+
+        .planes .nav-link {
+            color: black;
+            padding: .6rem;
+            border-radius: 1.5rem;
+        }
+
+        .planes .nav-link.active {
+            color: white;
+            border-radius: 1.5rem;
+            background: var(--my-verde);
+        }
+
+        .planes .recomendado {
+            text-align: center;
+            background: var(--my-verde);
+            padding: .7rem;
+            color: white;
+            border-radius: .6rem .6rem 0 0;
+        }
+
+        .planes .card {
+            border: none;
+            border-radius: .6rem;
+            z-index: 0;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .planes .card.reco {
+            border-radius: 0 0 .6rem .6rem;
+            margin-top: 0;
+        }
+
+        .planes .card .card-title {
+            border-bottom: 1px solid var(--my-gris);
+        }
+
+
+        .planes .card .card-body {
+            height: 370px;
+        }
+
+        .planes .card .plan-item {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--my-gris);
+        }
+
+        .planes .card .plan-item:last-child {
+            border-bottom: none;
+        }
+
+        .planes .card a {
+            /*width: 100%;*/
+            padding: .7rem 1rem;
+            /*font-family: 'WorkSans-Light';*/
+        }
+
+        .compl-adicionales .cont-compl-adic {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .compl-adicionales .card {
+            padding: 1rem;
+            border: 0;
+            border-right: 3px solid var(--my-gris-c);
+            /*border-bottom: 3px solid var(--my-gris-c);*/
+            text-align: center;
+            padding-bottom: 0;
+        }
+
+        .compl-adicionales .card .por-mes {
+            font-size: .7rem;
+            width: 25px;
+            display: inline-block;
+            text-align: start;
+            line-height: .7rem;
+            margin-left: -.3rem;
+        }
+
+        .planes-clientes {
+            background-size: 62% 100%;
+        }
+
+        .planes-clientes .cliente-det {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+
+        .planes-clientes .content-text-clientes {
+            margin-top: 2rem;
+            width: 65%;
+            margin-left: auto;
+        }
+
+
+        @media (min-width: 480px) {
+            .planes .card .card-body {
+                height: auto;
+            }
+
+            .opt-contacto {
+                height: 310px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .planes .card .card-body {
+                height: auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .planes .card .card-body .basic {
+                height: 520px;
+            }
+
+            .planes .card .card-body .standard {
+                height: 580px;
+            }
+
+            .planes .card .card-body .pro {
+                height: 780px;
+            }
+
+            .planes .card .card-body .full {
+                height: 860px;
+            }
+
+            .planes .card .card-title {
+                min-height: 308px;
+            }
+
+            .opt-contacto {
+                height: 210px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .planes .card .card-body .basic {
+                height: 520px;
+            }
+
+            .planes .card .card-body .standard {
+                height: 580px;
+            }
+
+            .planes .card .card-body .pro {
+                height: 780px;
+            }
+
+            .planes .card .card-body .full {
+                height: 860px;
+            }
+
+            .planes .card .card-title {
+                min-height: auto;
+            }
+
+            .navbar-nav {
+                gap: 0 !important;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .planes .card .card-body {
+                height: auto;
+            }
+
+            .planes .card .card-title {
+                min-height: auto;
+            }
+
+            .navbar-nav {
+                gap: 0 !important;
+            }
+        }
+
+        .card-foot {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 1366px) {
+
+            .planes .card {
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .planes .card .plan-item {
+                font-size: 12px;
+            }
+
+            .planes .card {
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+        }
+    </style>
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W5Z384J');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+
+</head>
+
+<body data-scroll-index="0">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5Z384J" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- referencia navbar -->
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar-header">
+                  <a class="logo mt10 mb10" href="#"><img src="../static/images/logo.webp" style="width: 250px;"></a>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a id="funcionalidadeslink" href="#funcionalidades" data-scroll-nav="1">Funcionalidades</a></li>
+                    <li><a id="clienteslink" href="#clientes" data-scroll-nav="3">Clientes</a></li>
+                    <li><a id="planeslink" href="#planes" data-scroll-nav="4">Planes</a></li>
+                    <li><a id="toplink" href="#top" class="destacado" data-scroll-nav="0">Probalo gratis</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="header">
+
+        <div class="container">
+            <!--<div class="row">-->
+            <div class="col-sm-7 mb40 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1s"
+                data-wow-delay="1.5s">
+
+                <!-- Título Header -->
+                <div class="h-titulo">
+
+                </div>
+                <!-- /Título Header -->
+                <!-- Descripción Header -->
+                <div class="h-descripcion">
+
+                </div>
+                <!-- /Descripción Header -->
+                <!-- Texto destacado Header -->
+                <div class="h-destacado">
+
+                </div>
+                <!-- /Texto destacado Header -->
+                <!-- Botón Header -->
+                <!--<div class="h-boton">
+                    <a class="btn btn-ghost border-danger popup-video" href="http://www.youtube.com/watch?v=kuuOuFetmuM"><i class="fas fa-play mr5"></i> Ver video</a>
+
+                </div>-->
+                <!-- /Botón Header -->
+
+            </div>
+            <div class="col-sm-5">
+                <form class="cardbox form-registro wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1s"
+                    data-wow-delay="1.6s" id="frmRegistro" name="frmRegistro" style="padding: 20px;">
+                    <h3 class="text-center mt0 mb30" style="font-size: 22px;">¡Probalo 10 días sin cargo!</h3>
+                    <div class="alert alert-danger" id="divError" style="display: none"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <input id="txtNombre" class="form-control required" maxlength="128" type="text"
+                                name="txtNombre" placeholder="Ingresá tu nombre o razón social" />
+                        </div>
+                        <div class="form-group col-xs-12">
+                            <input id="txtEmail" class="form-control required email" type="text" maxlength="128"
+                                name="txtEmail" placeholder="Ingresá tu Email" />
+                        </div>
+                        <div class="form-group col-xs-12">
+                            <input id="txtPwd" class="form-control required" type="password" maxlength="20"
+                                name="txtPwd" placeholder="Ingresá tu Contraseña" />
+                        </div>
+                        <div class="form-group col-xs-3">
+                            <input id="txtArea" name="txtArea" class="form-control required number" type="text"
+                                placeholder="Área">
+                        </div>
+                        <div class="form-group col-xs-9">
+                            <input id="txtTelefono" name="txtTelefono" class="form-control required number" type="text"
+                                placeholder="Teléfono">
+                        </div>
+                        <input id="hdnPais" name="hdnPais" type="hidden" value="Argentina" />
+                        <!-- <div class="form-group col-xs-12"> -->
+                        <!-- <select id="ddlActividad" class="form-control required" type="text" name="ddlActividad"> -->
+                        <!-- <option value="">Seleccione su actividad</option> -->
+                        <!-- <option value="Vendo productos">Vendo productos</option> -->
+                        <!-- <option value="Vendo servicios">Vendo servicios</option> -->
+                        <!-- <option value="Vendo productos y servicios">Vendo productos y servicios</option> -->
+                        <!-- <option value="Soy contador">Soy contador</option> -->
+                        <!-- <option value="Otro">Otro</option> -->
+                        <!-- </select> -->
+                        <!-- </div> -->
+                        <div class="form-group hide col-xs-12 codigo-descuento">
+
+                            <!--<input class="form-control" type="text" placeholder="Referido o Promo Code" required>-->
+                            <!-- EL CAMPO DE CODIGO DE DESCUENTO SE AGREGA DINAMICAMENTE DESDE "COMMON.JS" -->
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <a class="btn btn-lg btn-danger btn-full mb15" style="padding: 10px 15px;"
+                                onclick="grabar_landing_desc(0);" id="lnkRegistrarme">Empezar prueba</a>
+                            <small>(no requiere tarjeta de crédito)</small>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--</div>-->
+    </section>
+    <!-- /Header -->
+    <!-- Funcionalidades -->
+    <section id="funcionalidades" class="pt40 pb40 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"
+        data-wow-delay="0.2s" data-scroll-index="1">
+        <div class="container">
+            <div class="row text-center">
+              <div class="col-xs-12">
+                <h2>Funcionalidades</h2>
+                <p class="text-lg text-narrow mb60">Todas las herramientas para simplificar tu gestión </br>en un solo lugar y siempre disponibles</p>
+              </div>
+            </div>
+            <div class="row text-center">
+          
+              <!-- funcionalidad 1 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_01.webp">
+                  <h4>Ventas</h4>
+                  <ul>
+                    <li>Facturación electrónica en $ARS o U$S</li>
+                    <li>Presupuestos y abonos frecuentes</li>
+                    <li>Otros comprobantes de venta</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 1 -->
+          
+              <!-- funcionalidad 2 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_03.webp">
+                  <h4>Stock</h4>
+                  <ul>
+                    <li>Control bidireccional</li>
+                    <li>Multi-depósitos y listas de precios</li>
+                    <li>Alertas</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 2 -->
+          
+              <!-- funcionalidad 3 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_02.webp">
+                  <h4>Compras</h4>
+                  <ul>
+                    <li>Agenda de proveedores/clientes</li>
+                    <li>Gestión de pagos/cobranzas</li>
+                    <li>Alertas</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 3 -->
+          
+              <!-- funcionalidad 4 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_04.webp">
+                  <h4>Tesorería</h4>
+                  <ul>
+                    <li>Centro de costos</li>
+                    <li>Entidades financieras y cajas de efectivo</li>
+                    <li>Control de cheques</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 4 -->
+          
+              <div class="clearfix"></div>
+          
+              <!-- funcionalidad 5 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_05.webp">
+                  <h4>Reportes</h4>
+                  <p>Más de 35 reportes con información financiera, impositiva y de gestión</p>
+                </div>
+              </div>
+              <!-- /funcionalidad 5 -->
+          
+              <!-- funcionalidad 6 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_06.webp">
+                  <h4>Integraciones</h4>
+                  <ul>
+                    <li>Facturación masiva de ventas</li>
+                    <li>Control de stock</li>
+                    <li><a href="#integraciones" data-scroll-nav="2">+ Ver integraciones actuales</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 6 -->
+          
+              <!-- funcionalidad 7 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_07.webp">
+                  <h4>Contabilidad</h4>
+                  <ul>
+                    <li>Libros + Balance y EERR</li>
+                    <li>Cálculo automático de retenciones e IIBB CABA/GBA</li>
+                    <li>Plan de cuentas y asientos configurables</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 7 -->
+          
+              <!-- funcionalidad 8 -->
+              <div class="col-sm-3">
+                <div class="item-feature">
+                  <img src="../static/images/icon_feature_08.webp">
+                  <h4>Locales físicos</h4>
+                  <ul>
+                    <li>Venta de mostrador a consumidor final</li>
+                    <li>Turnos de caja y comisión por vendedor</li>
+                    <li>Conexión a lector de códigos de barra</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /funcionalidad 8 -->
+          
+            </div>
+        </div>
+    </section>
+    <!-- /Funcionalidades -->
+    <!-- Integraciones -->
+    <section id="integraciones" class="wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"
+        data-wow-delay="0.2s" data-scroll-index="2">
+
+        <hr class="mt0 mb40">
+        <!--<div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mt0">Se integra con tu eCommerce<br>y programas favoritos:</h3>
+            </div>
+        </div>-->
+        <div class="container-md">
+            <div class="mx-auto text-center mt-5">
+                <h2 class="mb-4 semi-bold">Se integra con tu eCommerce<br>y programas favoritos</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 mt40 mb40">
+                    <!-- slider integraciones -->
+                    <div class="carousel-integraciones"></div>
+                    <!-- /slider integraciones -->
+                </div>
+            </div>
+
+
+            <div class="col-xs-12">
+                <a href="#top" class="link-lg">Comenzar prueba gratuita →</a>
+            </div>
+
+            <hr class="mt60 mb0">
+        </div>
+    </section>
+    <!-- /Integraciones -->
+    <!-- Testimonios -->
+    <section id="clientes" class="pt40 pb40 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"
+        data-wow-delay="0.2s" data-scroll-index="3">
+
+        <!--<div class="container">
+         <div class="row">
+             <div class="col-xs-12">
+                 <h2 class="title mt0">Qué opinan nuestros clientes</h2>
+             </div>
+         </div>-->
+
+        <div class="container-md">
+            <div class="mx-auto text-center mt-5">
+                <h2 class="mb-4 semi-bold">Qué opinan nuestros clientes</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 mt20">
+                    <!-- slider testimonios -->
+                    <div class="carousel-testimonios"></div>
+                    <!-- /slider testimonios -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Testimonios -->
+    <!-- /Testimonios -->
+    <!-- Planes -->
+    <!-- Planes -->
+    <section class="planes pt40 pb40" data-scroll-index="4">
+        <div class="container-md">
+            <div class="mx-auto text-center mt-5">
+                <h2 class="mb-4 semi-bold">Planes creados según tu tipo de <span class="tc-rosa">negocio</span></h2>
+            </div>
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link plan-mensual active" href="javascript:void(0);">Plan mensual</a>
+                </li>
+                <li class="nav-item" style="margin-left:0">
+                    <a class="nav-link plan-anual" href="javascript:void(0);">Plan anual</a>
+                </li>
+            </ul>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card ">
+                        <div class="card-title">
+                            <h4 class="semi-bold nombre" style="font-size: 27px;">Standard</h4>
+                            <p class="regular leyenda" style="color:#00c7af;margin-bottom: 0; font-weight:bold"></p>
+                            <h3 class="semi-bold precio precio_a tc-rosa pt-3" style="display: none;">8.720 <small
+                                    style="font-size: 13px;color: #000;display: contents;">+ IVA /mes</small></h3>
+                            <h3 class="semi-bold precio precio_m tc-rosa pt-3" style="">10.259 <small
+                                    style="font-size: 13px;color: #000;display: contents;">+ IVA /mes</small></h3>
+                            <a class="tc-rosa" href="#top">probalo gratis</a>
+                            <p class="semi-bold pt-3">
+                                Hasta 1.500 comprobantes de venta
+                            </p>
+                        </div>
+                        <div class="card-body standard p-0">
+                            <div class="plan-item">Módulo de Ventas, Compras, Inventarios, Tesoreria y Reportes</div>
+                            <div class="plan-item">Módulo de punto de venta web</div>
+                            <div class="plan-item">-</div>
+                            <div class="plan-item"><b>2</b> usuarios</div>
+                            <div class="plan-item"><b>1</b> CUIT</div>
+                            <div class="plan-item"><b>1</b> Depósito</div>
+                            <div class="plan-item"><b>2</b> puntos de venta</div>
+
+                            <div class="plan-item">Listado de productos de hasta 5000 SKUs</div>
+                            <div class="plan-item"><b>3</b> cuentas integradas con Tiendanube, Mercado Libre, Mercado
+                                Pago y/o Mercado Shops</div>
+                            <div class="plan-item">Atención al cliente via email y/o chat</div>
+                        </div>
+                        <div class="card-foot"><a class="btn btn-rosa btn-md mt-4 my-2 mx-0" href="#top">Iniciá 10 días
+                                de prueba gratis</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="recomendado bold">Recomendado</div>
+                    <div class="card  reco">
+                        <div class="card-title">
+                            <h4 class="semi-bold nombre" style="font-size: 27px;">Pro</h4>
+                            <p class="regular leyenda" style="color:#00c7af;margin-bottom: 0; font-weight:bold"></p>
+                            <h3 class="semi-bold precio precio_a tc-rosa pt-3" style="display: none;">10.862 <small
+                                    style="font-size: 13px;color: #000;;display: contents;">+ IVA /mes</small></h3>
+                            <h3 class="semi-bold precio precio_m tc-rosa pt-3" style="">12.779 <small
+                                    style="font-size: 13px;color: #000;display: contents;">+ IVA /mes</small></h3>
+                            <a class="tc-rosa" href="#top">probalo gratis</a>
+                            <p class="semi-bold pt-3">
+                                Hasta 5.000
+                                comprobantes de venta
+                            </p>
+                        </div>
+                        <div class="card-body pro p-0">
+                            <div class="plan-item">Módulo de Ventas, Compras, Inventarios, Tesoreria y Reportes</div>
+                            <div class="plan-item">Módulo de punto de venta web</div>
+                            <div class="plan-item">-</div>
+                            <div class="plan-item"><b>5</b> usuarios</div>
+                            <div class="plan-item"><b>2</b> CUITs</div>
+                            <div class="plan-item"><b>Multi-Depósito</b></div>
+                            <div class="plan-item"><b>3</b> puntos de venta</div>
+                            <div class="plan-item">Listado de productos de hasta 5000 SKUs</div>
+                            <div class="plan-item"><b>4</b> cuentas integradas con Tiendanube, Mercado Libre, Mercado
+                                Pago y/o Mercado Shops</div>
+                            <div class="plan-item"><b>Listas de precios para productos</b></div>
+                            <div class="plan-item"><b>Alertas automáticas</b></div>
+                            <div class="plan-item"><b>Acceso especial para clientes</b></div>
+                            <div class="plan-item">Atención al cliente via email y/o chat</div>
+                        </div>
+                        <div class="card-foot"><a class="btn btn-rosa btn-md mt-4 my-2 mx-0" href="#top">Iniciá 10 días
+                                de prueba gratis</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <div class="card-title">
+                            <h4 class="semi-bold nombre" style="font-size: 27px;">Full</h4>
+                            <p class="regular leyenda" style="color:#00c7af;margin-bottom: 0;font-weight:bold"></p>
+                            <h3 class="semi-bold precio precio_a tc-rosa pt-3" style="display: none;">14.534 <small
+                                    style="font-size: 13px;color: #000;;display: contents;">+ IVA /mes</small></h3>
+                            <h3 class="semi-bold precio precio_m tc-rosa pt-3" style="">17.099 <small
+                                    style="font-size: 13px;color: #000;display: contents;">+ IVA /mes</small></h3>
+                            <a class="tc-rosa" href="#top">probalo gratis</a>
+                            <p class="semi-bold pt-3">
+                                Hasta 10.000
+                                comprobantes de venta
+                            </p>
+                        </div>
+                        <div class="card-body full p-0">
+                            <div class="plan-item">Módulo de Ventas, Compras, Inventarios, Tesoreria y Reportes</div>
+                            <div class="plan-item">Módulo de punto de venta web</div>
+                            <div class="plan-item"><b>Módulo de Contabilidad integral</b></div>
+                            <div class="plan-item"><b>10</b> usuarios</div>
+                            <div class="plan-item"><b>3</b> CUITs</div>
+                            <div class="plan-item"><b>Multi-Depósito</b></div>
+                            <div class="plan-item"><b>Ilimitados</b> puntos de venta</div>
+                            <div class="plan-item">Listado de productos de hasta 5000 SKUs</div>
+                            <div class="plan-item"><b>5</b> cuentas integradas con Tiendanube, Mercado Libre, Mercado
+                                Pago y/o Mercado Shops</div>
+                            <div class="plan-item"><b>Listas de precios para productos</b></div>
+                            <div class="plan-item"><b>Alertas automáticas</b></div>
+                            <div class="plan-item"><b>Acceso especial para clientes</b></div>
+                            <div class="plan-item"><b>Gestión bi-monetaria</b></div>
+                            <div class="plan-item"><b>API desarrolladores</b></div>
+                            <div class="plan-item">Atención al cliente via email y/o chat</div>
+
+                        </div>
+                        <div class="card-foot"><a class="btn btn-rosa btn-md mt-4 my-2 mx-0" href="#top">Iniciá 10 días
+                                de prueba gratis</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="text-center d-none d-md-block mb-4 hide">
+              <button class="btn btn-verde btn-md mt-4 my-2" data-bs-toggle="modal" data-bs-target="#modalComparacion">Comparar planes</button>
+            </div> -->
+        </div>
+    </section>
+    <!-- /Planes -->
+    <!-- Preguntas frecuentes -->
+    <!-- <section id="faq" class="pt80 pb80 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" data-wow-delay="0.2s" data-scroll-index="5">
+       <div class="container">
+         <div class="row">
+           <div class="col-xs-12">
+             <h2 class="title text-center mt0 mb40">Preguntas frecuentes</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-xs-12">
+             <div class="panel-group faq-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>-->
+    <!-- /Preguntas frecuentes -->
+    <!-- Probar Ahora -->
+    <section id="probarAhora" class="pt40 pb40">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"
+                    data-wow-delay="0.2s">
+                    <h2 class="title">¿Qué estás esperando?</h2>
+                    <a href="#top" class="btn btn-warning btn-lg mb15 mt15" style="padding: 10px;">Iniciá la prueba
+                        gratis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Probar Ahora -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                <span class="text-sm copyright">© 2020 Contabilium. Todos los derechos reservados.</span>
+                </div>
+                <div class="col-sm-6">
+                <span class="text-sm">
+                    <ul class="list-social">
+                    <li><a href="http://www.facebook.com/contabilium" target="_blank" title="Facebook"><img src="../static/images/icon_facebook.webp"></a></li>
+                    <li><a href="http://linkedin.com/company/contabilium" target="_blank" title="LinkedIn"><img src="../static/images/icon_linkedin.webp"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCHH8y-oKd2_hik4vNkqnKBg/about?view_as=subscriber" target="_blank" title="Youtube"><img src="../static/images/icon_youtube.webp"></a></li>
+                    <li><a href="http://instagram.com/contabilium" target="_blank" title="Instagram"><img src="../static/images/icon_instagram.webp"></a></li>
+                    </ul>
+                </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+    <!-- WP boton -->
+    <!-- <div class="btn-whatsapp"> -->
+    <!-- <a href="https://wa.me/59893508293" target="_blank"> -->
+    <!-- <img src="https://contabilium.cl/wp-content/uploads/2021/07/Whatsapp_icon-icons.com_66931-1.webp" alt=""> -->
+    <!-- </a> -->
+    <!-- </div> -->
+    <!-- /WP boton -->
+    <!-- JavaScript
+    ================================================== -->
+    <script src="local.js"></script>
+    <script src="../static/js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+	"testimonios":[
+      {
+        "img": "../static/images/testimonios/01.webp",
+        "comentario": "\"Contabilium le cambió la vida a nuestra empresa. El negocio es dinámico y demanda respuestas rápidas acerca del stock de nuestros productos… ¡No podés dudar!\"",
+        "nombre": "Renzo Carlos Mania",
+        "empresa": "LEDMania"
+      },
+      {
+        "img": "../static/images/testimonios/02.webp",
+        "comentario": "\"¡Excelente sistema! Nos permite facturar super rápido y de forma simple.\"",
+        "nombre": "Carlos Alejandro Carrara",
+        "empresa": "CARRARA"
+      },
+      {
+        "img": "../static/images/testimonios/03.webp",
+        "comentario": "\"¡Probé muchos sistemas y Contabilium es sin dudas el mejor! Es fácil, intuitivo, siempre están mejorando y ofreciendo nuevas funcionalidades.\"",
+        "nombre": "Fernando Endrigo",
+        "empresa": "Rey del Tanque"
+      },
+      {
+        "img": "../static/images/testimonios/04.webp",
+        "comentario": "\"¡El mejor descubrimiento! Recomiendo Contabilium, especialmente para quienes están buscando dar el salto de varias ventas al día a MUCHAS. Es un antes y un después.\"",
+        "nombre": "Ricardo Mauro Paladino",
+        "empresa": "Delpa SRL"
+      },
+      {
+        "img": "../static/images/testimonios/05.webp",
+        "comentario": "\"¡Una facilidad para comercios! Sincronizo mi local con el eCommerce. Tienen muy buen Soporte para hacer preguntas ¡Nos facilitó la facturación en el local! Muy recomendable.\"",
+        "nombre": "Carlos Anibal Vassallo",
+        "empresa": "ServiceGym"
+      }
+    ]
+}

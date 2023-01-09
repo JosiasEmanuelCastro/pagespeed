@@ -1,0 +1,36 @@
+{
+	"integraciones":[ 
+		{
+	        "img": "../static/images/integraciones/mercadolibre.webp",
+	        "title": "MercadoLibre"
+	    },
+	    {
+	        "img": "../static/images/integraciones/tiendanube.webp",
+	        "title": "TiendaNube"
+	    },
+	    {
+	        "img": "../static/images/integraciones/mercadopago.webp",
+	        "title": "MercadoPago"
+	    },
+	    {
+	        "img": "../static/images/integraciones/woocommerce.webp",
+	        "title": "WooCommerce"
+	    },
+	    {
+	        "img": "../static/images/integraciones/mercadoshops.webp",
+	        "title": "MercadoShops"
+	    },
+	    {
+	        "img": "../static/images/integraciones/prestashop.webp",
+	        "title": "PrestaShop"
+	    },
+	    {
+	        "img": "../static/images/integraciones/payu.webp",
+	        "title": "PayU"
+	    },
+	    {
+	        "img": "../static/images/integraciones/producteca.webp",
+	        "title": "Producteca"
+	    }
+    ]
+}

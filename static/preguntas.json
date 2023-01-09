@@ -1,0 +1,52 @@
+{
+	"visibilidad": "visible",
+	"preguntas":[ 
+		{
+	        "pregunta": "¿Cómo aprender a facturar electrónicamente?",
+	        "subtitulo": "<small>¿Cómo confeccionar una factura electrónica? - ¿Cómo hacer facturas electrónicas paso a paso? - ¿Cómo facturar monotributo electrónicamente? - ¿Cómo facturar desde el celular? - ¿Cómo enviar facturas electrónicas?</small>",
+	        "respuesta": "Usá Contabilium para emitir facturas electrónicas de forma ilimitada. Se integra con la página de AFIP."
+	    },
+	    {
+	        "pregunta": "¿Cómo bajar una factura electrónica?",
+	        "subtitulo": "<small>¿Cómo descargar factura electrónica desde mi teléfono?</small>",
+	        "respuesta": "Al facturar desde Contabilium, las facturas se almacenan en el sistema online y las podés descargar en formato PDF."
+	    },
+	    {
+	        "pregunta": "¿Cómo buscar facturas electrónicas recibidas?",
+	        "subtitulo": "",
+	        "respuesta": "Cargá en Contabilium las facturas que recibís de tus proveedores y los tickets de tus gastos. Cuando necesites esta información, la vas a encontrar en el módulo de “Compras” del sistema, bajo la sección “Comprobantes”."
+	    },
+	    {
+	        "pregunta": "¿Cómo corregir una factura electrónica?",
+	        "subtitulo": "<small>¿Cómo modificar facturas electrónicas? - ¿Cómo se anula una factura?</small>",
+	        "respuesta": "Usá Contabilium para emitir notas de crédito y débito electrónicas, para corregir facturas en las que te hayas equivocado o que tengan algún error. Se integra con la página de AFIP."
+	    },
+	    {
+	        "pregunta": "¿Cómo emitir factura A?",
+	        "subtitulo": "",
+	        "respuesta": "Usá Contabilium para emitir facturas A electrónicas de forma ilimitada. Se integra con la página de AFIP."
+	    },
+	    {
+	        "pregunta": "¿Cómo emitir factura B?",
+	        "subtitulo": "",
+	        "respuesta": "Usá Contabilium para emitir facturas B electrónicas de forma ilimitada. Se integra con la página de AFIP."
+	    },
+	    {
+	        "pregunta": "¿Cómo emitir factura C?",
+	        "subtitulo": "",
+	        "respuesta": "Usá Contabilium para emitir facturas C electrónicas de forma ilimitada. Se integra con la página de AFIP."
+	    },
+	    {
+	        "pregunta": "¿Cómo se hace una proforma de venta electrónica?",
+	        "subtitulo": "",
+	        "respuesta": "Usá Contabilium para emitir cotizaciones y presupuestos de los pedidos que recibís de tus clientes. Envialos por mail sin salir del sistema online, o descargalos en PDF."
+	    },
+	    {
+	        "pregunta": "¿Cómo hacer un remito electrónico?",
+	        "subtitulo": "",
+	        "respuesta": "Usá Contabilium para emitir remitos de manera electrónica. Add-on."
+	    }
+
+	    
+    ]
+}

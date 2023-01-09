@@ -1,0 +1,56 @@
+{
+	"clientes":[ 
+		{
+	        "img": "images/clientes/coderhouse.webp",
+	        "title": "Coderhouse",
+			"alt": "Coderhouse"
+	    },
+		{
+	        "img": "images/clientes/moova.webp",
+	        "title": "Moova",
+			"alt": "Moova"
+			
+	    },
+		{
+	        "img": "images/clientes/infinit.webp",
+	        "title": "Infinit",
+			"alt": "Infinit"
+	    },
+		{
+	        "img": "images/clientes/jaguarshoes.webp",
+	        "title": "Jaguar shoes",
+			"alt": "Jaguar shoes"
+	    },
+		{
+	        "img": "images/clientes/beepure.webp",
+	        "title": "Beepure",
+			"alt": "Beepure"
+	    },
+	    {
+	        "img": "images/clientes/rosarosa.webp",
+	        "title": "Rosa Rosa",
+			"alt": "Rosa Rosa"
+	    },
+	    {
+	        "img": "images/clientes/cryosmetics.webp",
+	        "title": "Cryosmetics",
+			"alt": "Cryosmetics"
+	    },
+		{
+	        "img": "images/clientes/beurer.webp",
+	        "title": "Beurer",
+			"alt": "Beurer"
+	    }
+		,
+		{
+	        "img": "images/clientes/wilson.webp",
+	        "title": "Wilson",
+			"alt": "Wilson"
+	    },
+		{
+	        "img": "images/clientes/numa.webp",
+	        "title": "Numa",
+			"alt": "Numa"
+	    }
+    ]
+}
