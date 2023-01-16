@@ -1,9 +1,9 @@
 
 var dfLoadStatus = 0;
 var dfLoadFiles = [
-    [""],
+    ["//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"],
     [
-        "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js",
+        
         "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
         "../static/js/slick.min.js",
         "../static/js/scrollIt.min.js",
@@ -30,6 +30,7 @@ function downloadJSAtOnload() {
                     if (dfGroup.length === 1) { //if jquery was loaded, then load other js
                         downloadJSAtOnload();
                     } else { //all is already loaded, perform deffered actions
+
                         performDeferredActions();
                     }
                 }
@@ -48,6 +49,7 @@ if (window.addEventListener) {
 }
 
 function performDeferredActions() {
+
 
     //do anything after all the resources are loaded.
 
